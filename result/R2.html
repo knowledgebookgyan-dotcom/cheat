@@ -1,0 +1,931 @@
+            <div data-slot="card"
+              class="text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm bg-zinc-900/95 border-zinc-800">
+              <div data-slot="card-content" class="p-6">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                  <div class="space-y-2">
+                    <p class="text-xs text-zinc-500 uppercase tracking-wider">Marks</p>
+                    <p class="text-3xl font-bold text-primary">864 <span class="text-xl text-zinc-500">/ 1000</span></p>
+                    <p class="text-xs text-zinc-400">Total Marks Obtained</p>
+                  </div>
+                  <div class="space-y-2">
+                    <p class="text-xs text-zinc-500 uppercase tracking-wider">SGPA</p>
+                    <p class="text-3xl font-bold text-primary">9.16</p>
+                    <p class="text-xs text-zinc-400">Semester Grade Point Average</p>
+                  </div>
+                  <div class="space-y-2">
+                    <p class="text-xs text-zinc-500 uppercase tracking-wider">Percentage</p>
+                    <p class="text-3xl font-bold text-primary">86.40%</p>
+                    <p class="text-xs text-zinc-400">Percentage of Marks Obtained</p>
+                  </div>
+                  <div class="space-y-2">
+                    <p class="text-xs text-zinc-500 uppercase tracking-wider">Total Credits</p>
+                    <p class="text-3xl font-bold text-primary">-</p>
+                    <p class="text-xs text-zinc-400">Total Credits for the Semester</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+              <div data-slot="card"
+                class="text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm bg-zinc-900/95 pb-0 border-zinc-800">
+                <div data-slot="card-content" class="px-6">
+                  <h3 class="text-lg font-semibold text-white mb-4">SEMESTER STATISTICS</h3>
+                  <p class="text-sm text-zinc-400 mb-4">Subject-wise marks distribution</p>
+                  <div data-slot="chart" data-chart="chart-_r_u_"
+                    class="[&amp;_.recharts-cartesian-axis-tick_text]:fill-muted-foreground [&amp;_.recharts-cartesian-grid_line[stroke=&#39;#ccc&#39;]]:stroke-border/50 [&amp;_.recharts-curve.recharts-tooltip-cursor]:stroke-border [&amp;_.recharts-polar-grid_[stroke=&#39;#ccc&#39;]]:stroke-border [&amp;_.recharts-radial-bar-background-sector]:fill-muted [&amp;_.recharts-rectangle.recharts-tooltip-cursor]:fill-muted [&amp;_.recharts-reference-line_[stroke=&#39;#ccc&#39;]]:stroke-border flex aspect-video justify-center text-xs [&amp;_.recharts-dot[stroke=&#39;#fff&#39;]]:stroke-transparent [&amp;_.recharts-layer]:outline-hidden [&amp;_.recharts-sector]:outline-hidden [&amp;_.recharts-sector[stroke=&#39;#fff&#39;]]:stroke-transparent [&amp;_.recharts-surface]:outline-hidden h-[300px] w-full">
+                    <style>
+                      [data-chart=chart-_r_u_] {
+                        --color-internalMarks: #84cc16;
+                        --color-externalMarks: #e0ff07;
+                      }
+
+
+                      .dark [data-chart=chart-_r_u_] {
+                        --color-internalMarks: #84cc16;
+                        --color-externalMarks: #e0ff07;
+                      }
+                    </style>
+                    <div class="recharts-responsive-container" style="width: 100%; height: 100%; min-width: 0px;">
+                      <div class="recharts-responsive-container" style="width: 630px; height: 300px; min-width: 0px;">
+                        <div class="recharts-wrapper"
+                          style="position: relative; cursor: default; width: 100%; height: 100%; max-height: 300px; max-width: 630px;">
+                          <svg class="recharts-surface" width="630" height="300" viewBox="0 0 630 300"
+                            style="width: 100%; height: 100%;">
+                            <title></title>
+                            <desc></desc>
+                            <defs>
+                              <clippath id="recharts73-clip">
+                                <rect x="65" y="5" height="210" width="560"></rect>
+                              </clippath>
+                            </defs>
+                            <g class="recharts-cartesian-grid">
+                              <g class="recharts-cartesian-grid-horizontal">
+                                <line stroke-dasharray="3 3" class="stroke-zinc-700" stroke="#ccc" fill="none" x="65"
+                                  y="5" width="560" height="210" x1="65" y1="215" x2="625" y2="215"></line>
+                                <line stroke-dasharray="3 3" class="stroke-zinc-700" stroke="#ccc" fill="none" x="65"
+                                  y="5" width="560" height="210" x1="65" y1="162.5" x2="625" y2="162.5"></line>
+                                <line stroke-dasharray="3 3" class="stroke-zinc-700" stroke="#ccc" fill="none" x="65"
+                                  y="5" width="560" height="210" x1="65" y1="110" x2="625" y2="110"></line>
+                                <line stroke-dasharray="3 3" class="stroke-zinc-700" stroke="#ccc" fill="none" x="65"
+                                  y="5" width="560" height="210" x1="65" y1="57.5" x2="625" y2="57.5"></line>
+                                <line stroke-dasharray="3 3" class="stroke-zinc-700" stroke="#ccc" fill="none" x="65"
+                                  y="5" width="560" height="210" x1="65" y1="5" x2="625" y2="5"></line>
+                              </g>
+                              <g class="recharts-cartesian-grid-vertical">
+                                <line stroke-dasharray="3 3" class="stroke-zinc-700" stroke="#ccc" fill="none" x="65"
+                                  y="5" width="560" height="210" x1="93" y1="5" x2="93" y2="215"></line>
+                                <line stroke-dasharray="3 3" class="stroke-zinc-700" stroke="#ccc" fill="none" x="65"
+                                  y="5" width="560" height="210" x1="149" y1="5" x2="149" y2="215"></line>
+                                <line stroke-dasharray="3 3" class="stroke-zinc-700" stroke="#ccc" fill="none" x="65"
+                                  y="5" width="560" height="210" x1="205" y1="5" x2="205" y2="215"></line>
+                                <line stroke-dasharray="3 3" class="stroke-zinc-700" stroke="#ccc" fill="none" x="65"
+                                  y="5" width="560" height="210" x1="261" y1="5" x2="261" y2="215"></line>
+                                <line stroke-dasharray="3 3" class="stroke-zinc-700" stroke="#ccc" fill="none" x="65"
+                                  y="5" width="560" height="210" x1="317" y1="5" x2="317" y2="215"></line>
+                                <line stroke-dasharray="3 3" class="stroke-zinc-700" stroke="#ccc" fill="none" x="65"
+                                  y="5" width="560" height="210" x1="373" y1="5" x2="373" y2="215"></line>
+                                <line stroke-dasharray="3 3" class="stroke-zinc-700" stroke="#ccc" fill="none" x="65"
+                                  y="5" width="560" height="210" x1="429" y1="5" x2="429" y2="215"></line>
+                                <line stroke-dasharray="3 3" class="stroke-zinc-700" stroke="#ccc" fill="none" x="65"
+                                  y="5" width="560" height="210" x1="485" y1="5" x2="485" y2="215"></line>
+                                <line stroke-dasharray="3 3" class="stroke-zinc-700" stroke="#ccc" fill="none" x="65"
+                                  y="5" width="560" height="210" x1="541" y1="5" x2="541" y2="215"></line>
+                                <line stroke-dasharray="3 3" class="stroke-zinc-700" stroke="#ccc" fill="none" x="65"
+                                  y="5" width="560" height="210" x1="597" y1="5" x2="597" y2="215"></line>
+                                <line stroke-dasharray="3 3" class="stroke-zinc-700" stroke="#ccc" fill="none" x="65"
+                                  y="5" width="560" height="210" x1="65" y1="5" x2="65" y2="215"></line>
+                                <line stroke-dasharray="3 3" class="stroke-zinc-700" stroke="#ccc" fill="none" x="65"
+                                  y="5" width="560" height="210" x1="625" y1="5" x2="625" y2="215"></line>
+                              </g>
+                            </g>
+                            <g class="recharts-layer recharts-cartesian-axis recharts-xAxis xAxis text-zinc-400">
+                              <line orientation="bottom" width="560" height="80" class="recharts-cartesian-axis-line"
+                                angle="-45" text-anchor="end" x="65" y="215" stroke="#666" fill="none" x1="65" y1="215"
+                                x2="625" y2="215"></line>
+                              <g class="recharts-cartesian-axis-ticks">
+                                <g class="recharts-layer recharts-cartesian-axis-tick">
+                                  <line orientation="bottom" width="560" height="80"
+                                    class="recharts-cartesian-axis-tick-line" angle="-45" text-anchor="end" x="65"
+                                    y="215" stroke="#666" fill="none" x1="93" y1="221" x2="93" y2="215"></line><text
+                                    orientation="bottom" width="560" height="80" stroke="none" font-size="12"
+                                    transform="rotate(-45, 93, 223)" x="93" y="223"
+                                    class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="end"
+                                    fill="#a1a1aa">
+                                    <tspan x="93" dy="0.71em">ES-102</tspan>
+                                  </text>
+                                </g>
+                                <g class="recharts-layer recharts-cartesian-axis-tick">
+                                  <line orientation="bottom" width="560" height="80"
+                                    class="recharts-cartesian-axis-tick-line" angle="-45" text-anchor="end" x="65"
+                                    y="215" stroke="#666" fill="none" x1="149" y1="221" x2="149" y2="215"></line><text
+                                    orientation="bottom" width="560" height="80" stroke="none" font-size="12"
+                                    transform="rotate(-45, 149, 223)" x="149" y="223"
+                                    class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="end"
+                                    fill="#a1a1aa">
+                                    <tspan x="149" dy="0.71em">SEC-104</tspan>
+                                  </text>
+                                </g>
+                                <g class="recharts-layer recharts-cartesian-axis-tick">
+                                  <line orientation="bottom" width="560" height="80"
+                                    class="recharts-cartesian-axis-tick-line" angle="-45" text-anchor="end" x="65"
+                                    y="215" stroke="#666" fill="none" x1="205" y1="221" x2="205" y2="215"></line><text
+                                    orientation="bottom" width="560" height="80" stroke="none" font-size="12"
+                                    transform="rotate(-45, 205, 223)" x="205" y="223"
+                                    class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="end"
+                                    fill="#a1a1aa">
+                                    <tspan x="205" dy="0.71em">ES-108</tspan>
+                                  </text>
+                                </g>
+                                <g class="recharts-layer recharts-cartesian-axis-tick">
+                                  <line orientation="bottom" width="560" height="80"
+                                    class="recharts-cartesian-axis-tick-line" angle="-45" text-anchor="end" x="65"
+                                    y="215" stroke="#666" fill="none" x1="261" y1="221" x2="261" y2="215"></line><text
+                                    orientation="bottom" width="560" height="80" stroke="none" font-size="12"
+                                    transform="rotate(-45, 261, 223)" x="261" y="223"
+                                    class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="end"
+                                    fill="#a1a1aa">
+                                    <tspan x="261" dy="0.71em">BS-110</tspan>
+                                  </text>
+                                </g>
+                                <g class="recharts-layer recharts-cartesian-axis-tick">
+                                  <line orientation="bottom" width="560" height="80"
+                                    class="recharts-cartesian-axis-tick-line" angle="-45" text-anchor="end" x="65"
+                                    y="215" stroke="#666" fill="none" x1="317" y1="221" x2="317" y2="215"></line><text
+                                    orientation="bottom" width="560" height="80" stroke="none" font-size="12"
+                                    transform="rotate(-45, 317, 223)" x="317" y="223"
+                                    class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="end"
+                                    fill="#a1a1aa">
+                                    <tspan x="317" dy="0.71em">BS-112</tspan>
+                                  </text>
+                                </g>
+                                <g class="recharts-layer recharts-cartesian-axis-tick">
+                                  <line orientation="bottom" width="560" height="80"
+                                    class="recharts-cartesian-axis-tick-line" angle="-45" text-anchor="end" x="65"
+                                    y="215" stroke="#666" fill="none" x1="373" y1="221" x2="373" y2="215"></line><text
+                                    orientation="bottom" width="560" height="80" stroke="none" font-size="12"
+                                    transform="rotate(-45, 373, 223)" x="373" y="223"
+                                    class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="end"
+                                    fill="#a1a1aa">
+                                    <tspan x="373" dy="0.71em">ES-116</tspan>
+                                  </text>
+                                </g>
+                                <g class="recharts-layer recharts-cartesian-axis-tick">
+                                  <line orientation="bottom" width="560" height="80"
+                                    class="recharts-cartesian-axis-tick-line" angle="-45" text-anchor="end" x="65"
+                                    y="215" stroke="#666" fill="none" x1="429" y1="221" x2="429" y2="215"></line><text
+                                    orientation="bottom" width="560" height="80" stroke="none" font-size="12"
+                                    transform="rotate(-45, 429, 223)" x="429" y="223"
+                                    class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="end"
+                                    fill="#a1a1aa">
+                                    <tspan x="429" dy="0.71em">ES-152</tspan>
+                                  </text>
+                                </g>
+                                <g class="recharts-layer recharts-cartesian-axis-tick">
+                                  <line orientation="bottom" width="560" height="80"
+                                    class="recharts-cartesian-axis-tick-line" angle="-45" text-anchor="end" x="65"
+                                    y="215" stroke="#666" fill="none" x1="485" y1="221" x2="485" y2="215"></line><text
+                                    orientation="bottom" width="560" height="80" stroke="none" font-size="12"
+                                    transform="rotate(-45, 485, 223)" x="485" y="223"
+                                    class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="end"
+                                    fill="#a1a1aa">
+                                    <tspan x="485" dy="0.71em">SEC-154</tspan>
+                                  </text>
+                                </g>
+                                <g class="recharts-layer recharts-cartesian-axis-tick">
+                                  <line orientation="bottom" width="560" height="80"
+                                    class="recharts-cartesian-axis-tick-line" angle="-45" text-anchor="end" x="65"
+                                    y="215" stroke="#666" fill="none" x1="541" y1="221" x2="541" y2="215"></line><text
+                                    orientation="bottom" width="560" height="80" stroke="none" font-size="12"
+                                    transform="rotate(-45, 541, 223)" x="541" y="223"
+                                    class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="end"
+                                    fill="#a1a1aa">
+                                    <tspan x="541" dy="0.71em">ES-158</tspan>
+                                  </text>
+                                </g>
+                                <g class="recharts-layer recharts-cartesian-axis-tick">
+                                  <line orientation="bottom" width="560" height="80"
+                                    class="recharts-cartesian-axis-tick-line" angle="-45" text-anchor="end" x="65"
+                                    y="215" stroke="#666" fill="none" x1="597" y1="221" x2="597" y2="215"></line><text
+                                    orientation="bottom" width="560" height="80" stroke="none" font-size="12"
+                                    transform="rotate(-45, 597, 223)" x="597" y="223"
+                                    class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="end"
+                                    fill="#a1a1aa">
+                                    <tspan x="597" dy="0.71em">BS-160</tspan>
+                                  </text>
+                                </g>
+                              </g>
+                            </g>
+                            <g class="recharts-layer recharts-cartesian-axis recharts-yAxis yAxis text-zinc-400">
+                              <line orientation="left" width="60" height="210" class="recharts-cartesian-axis-line"
+                                x="5" y="5" stroke="#666" fill="none" x1="65" y1="5" x2="65" y2="215"></line>
+                              <g class="recharts-cartesian-axis-ticks">
+                                <g class="recharts-layer recharts-cartesian-axis-tick">
+                                  <line orientation="left" width="60" height="210"
+                                    class="recharts-cartesian-axis-tick-line" x="5" y="5" stroke="#666" fill="none"
+                                    x1="59" y1="215" x2="65" y2="215"></line><text orientation="left" width="60"
+                                    height="210" stroke="none" x="57" y="215"
+                                    class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="end"
+                                    fill="#a1a1aa">
+                                    <tspan x="57" dy="0.355em">0</tspan>
+                                  </text>
+                                </g>
+                                <g class="recharts-layer recharts-cartesian-axis-tick">
+                                  <line orientation="left" width="60" height="210"
+                                    class="recharts-cartesian-axis-tick-line" x="5" y="5" stroke="#666" fill="none"
+                                    x1="59" y1="162.5" x2="65" y2="162.5"></line><text orientation="left" width="60"
+                                    height="210" stroke="none" x="57" y="162.5"
+                                    class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="end"
+                                    fill="#a1a1aa">
+                                    <tspan x="57" dy="0.355em">25</tspan>
+                                  </text>
+                                </g>
+                                <g class="recharts-layer recharts-cartesian-axis-tick">
+                                  <line orientation="left" width="60" height="210"
+                                    class="recharts-cartesian-axis-tick-line" x="5" y="5" stroke="#666" fill="none"
+                                    x1="59" y1="110" x2="65" y2="110"></line><text orientation="left" width="60"
+                                    height="210" stroke="none" x="57" y="110"
+                                    class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="end"
+                                    fill="#a1a1aa">
+                                    <tspan x="57" dy="0.355em">50</tspan>
+                                  </text>
+                                </g>
+                                <g class="recharts-layer recharts-cartesian-axis-tick">
+                                  <line orientation="left" width="60" height="210"
+                                    class="recharts-cartesian-axis-tick-line" x="5" y="5" stroke="#666" fill="none"
+                                    x1="59" y1="57.5" x2="65" y2="57.5"></line><text orientation="left" width="60"
+                                    height="210" stroke="none" x="57" y="57.5"
+                                    class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="end"
+                                    fill="#a1a1aa">
+                                    <tspan x="57" dy="0.355em">75</tspan>
+                                  </text>
+                                </g>
+                                <g class="recharts-layer recharts-cartesian-axis-tick">
+                                  <line orientation="left" width="60" height="210"
+                                    class="recharts-cartesian-axis-tick-line" x="5" y="5" stroke="#666" fill="none"
+                                    x1="59" y1="5" x2="65" y2="5"></line><text orientation="left" width="60"
+                                    height="210" stroke="none" x="57" y="9"
+                                    class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="end"
+                                    fill="#a1a1aa">
+                                    <tspan x="57" dy="0.355em">100</tspan>
+                                  </text>
+                                </g>
+                              </g>
+                            </g>
+                            <g class="recharts-layer recharts-bar">
+                              <g class="recharts-layer recharts-bar-rectangles">
+                                <g class="recharts-layer">
+                                  <g class="recharts-layer recharts-bar-rectangle">
+                                    <path x="70.6" y="147.79999999999998" width="44" height="67.20000000000002"
+                                      radius="0" fill="#84cc16" name="DATA STRUCTURES" class="recharts-rectangle"
+                                      d="M 70.6,147.79999999999998 h 44 v 67.20000000000002 h -44 Z"></path>
+                                  </g>
+                                  <g class="recharts-layer recharts-bar-rectangle">
+                                    <path x="126.6" y="133.1" width="44" height="81.9" radius="0" fill="#84cc16"
+                                      name="PYTHON PROGRAMMING" class="recharts-rectangle"
+                                      d="M 126.6,133.1 h 44 v 81.9 h -44 Z"></path>
+                                  </g>
+                                  <g class="recharts-layer recharts-bar-rectangle">
+                                    <path x="182.6" y="135.20000000000002" width="44" height="79.79999999999998"
+                                      radius="0" fill="#84cc16" name="BASICS OF ELECTRONICS ENGINEERING"
+                                      class="recharts-rectangle"
+                                      d="M 182.6,135.20000000000002 h 44 v 79.79999999999998 h -44 Z"></path>
+                                  </g>
+                                  <g class="recharts-layer recharts-bar-rectangle">
+                                    <path x="238.6" y="137.29999999999998" width="44" height="77.70000000000002"
+                                      radius="0" fill="#84cc16" name="ENGINEERING MATHEMATICS-II"
+                                      class="recharts-rectangle"
+                                      d="M 238.6,137.29999999999998 h 44 v 77.70000000000002 h -44 Z"></path>
+                                  </g>
+                                  <g class="recharts-layer recharts-bar-rectangle">
+                                    <path x="294.6" y="147.79999999999998" width="44" height="67.20000000000002"
+                                      radius="0" fill="#84cc16" name="ENGINEERING PHYSICS" class="recharts-rectangle"
+                                      d="M 294.6,147.79999999999998 h 44 v 67.20000000000002 h -44 Z"></path>
+                                  </g>
+                                  <g class="recharts-layer recharts-bar-rectangle">
+                                    <path x="350.6" y="133.1" width="44" height="81.9" radius="0" fill="#84cc16"
+                                      name="ENGINEERING MECHANICS" class="recharts-rectangle"
+                                      d="M 350.6,133.1 h 44 v 81.9 h -44 Z"></path>
+                                  </g>
+                                  <g class="recharts-layer recharts-bar-rectangle">
+                                    <path x="406.6" y="139.4" width="44" height="75.6" radius="0" fill="#84cc16"
+                                      name="DATA STRUCTURES LAB" class="recharts-rectangle"
+                                      d="M 406.6,139.4 h 44 v 75.6 h -44 Z"></path>
+                                  </g>
+                                  <g class="recharts-layer recharts-bar-rectangle">
+                                    <path x="462.6" y="133.1" width="44" height="81.9" radius="0" fill="#84cc16"
+                                      name="PYTHON PROGRAMMING LAB" class="recharts-rectangle"
+                                      d="M 462.6,133.1 h 44 v 81.9 h -44 Z"></path>
+                                  </g>
+                                  <g class="recharts-layer recharts-bar-rectangle">
+                                    <path x="518.6" y="143.59999999999997" width="44" height="71.40000000000003"
+                                      radius="0" fill="#84cc16" name="BASICS OF ELECTRONICS ENGINEERING LAB"
+                                      class="recharts-rectangle"
+                                      d="M 518.6,143.59999999999997 h 44 v 71.40000000000003 h -44 Z"></path>
+                                  </g>
+                                  <g class="recharts-layer recharts-bar-rectangle">
+                                    <path x="574.6" y="143.59999999999997" width="44" height="71.40000000000003"
+                                      radius="0" fill="#84cc16" name="ENGINEERING PHYSICS LAB"
+                                      class="recharts-rectangle"
+                                      d="M 574.6,143.59999999999997 h 44 v 71.40000000000003 h -44 Z"></path>
+                                  </g>
+                                </g>
+                              </g>
+                              <g class="recharts-layer"></g>
+                            </g>
+                            <g class="recharts-layer recharts-bar">
+                              <g class="recharts-layer recharts-bar-rectangles">
+                                <g class="recharts-layer">
+                                  <g class="recharts-layer recharts-bar-rectangle">
+                                    <path x="70.6" y="65.9" width="44" height="81.89999999999998" radius="0"
+                                      fill="#e0ff07" name="DATA STRUCTURES" class="recharts-rectangle"
+                                      d="M 70.6,65.9 h 44 v 81.89999999999998 h -44 Z"></path>
+                                  </g>
+                                  <g class="recharts-layer recharts-bar-rectangle">
+                                    <path x="126.6" y="44.89999999999999" width="44" height="88.2" radius="0"
+                                      fill="#e0ff07" name="PYTHON PROGRAMMING" class="recharts-rectangle"
+                                      d="M 126.6,44.89999999999999 h 44 v 88.2 h -44 Z"></path>
+                                  </g>
+                                  <g class="recharts-layer recharts-bar-rectangle">
+                                    <path x="182.6" y="23.899999999999995" width="44" height="111.30000000000003"
+                                      radius="0" fill="#e0ff07" name="BASICS OF ELECTRONICS ENGINEERING"
+                                      class="recharts-rectangle"
+                                      d="M 182.6,23.899999999999995 h 44 v 111.30000000000003 h -44 Z"></path>
+                                  </g>
+                                  <g class="recharts-layer recharts-bar-rectangle">
+                                    <path x="238.6" y="15.500000000000007" width="44" height="121.79999999999997"
+                                      radius="0" fill="#e0ff07" name="ENGINEERING MATHEMATICS-II"
+                                      class="recharts-rectangle"
+                                      d="M 238.6,15.500000000000007 h 44 v 121.79999999999997 h -44 Z"></path>
+                                  </g>
+                                  <g class="recharts-layer recharts-bar-rectangle">
+                                    <path x="294.6" y="40.70000000000001" width="44" height="107.09999999999997"
+                                      radius="0" fill="#e0ff07" name="ENGINEERING PHYSICS" class="recharts-rectangle"
+                                      d="M 294.6,40.70000000000001 h 44 v 107.09999999999997 h -44 Z"></path>
+                                  </g>
+                                  <g class="recharts-layer recharts-bar-rectangle">
+                                    <path x="350.6" y="30.200000000000003" width="44" height="102.89999999999999"
+                                      radius="0" fill="#e0ff07" name="ENGINEERING MECHANICS" class="recharts-rectangle"
+                                      d="M 350.6,30.200000000000003 h 44 v 102.89999999999999 h -44 Z"></path>
+                                  </g>
+                                  <g class="recharts-layer recharts-bar-rectangle">
+                                    <path x="406.6" y="30.200000000000003" width="44" height="109.2" radius="0"
+                                      fill="#e0ff07" name="DATA STRUCTURES LAB" class="recharts-rectangle"
+                                      d="M 406.6,30.200000000000003 h 44 v 109.2 h -44 Z"></path>
+                                  </g>
+                                  <g class="recharts-layer recharts-bar-rectangle">
+                                    <path x="462.6" y="19.69999999999999" width="44" height="113.4" radius="0"
+                                      fill="#e0ff07" name="PYTHON PROGRAMMING LAB" class="recharts-rectangle"
+                                      d="M 462.6,19.69999999999999 h 44 v 113.4 h -44 Z"></path>
+                                  </g>
+                                  <g class="recharts-layer recharts-bar-rectangle">
+                                    <path x="518.6" y="28.099999999999998" width="44" height="115.49999999999997"
+                                      radius="0" fill="#e0ff07" name="BASICS OF ELECTRONICS ENGINEERING LAB"
+                                      class="recharts-rectangle"
+                                      d="M 518.6,28.099999999999998 h 44 v 115.49999999999997 h -44 Z"></path>
+                                  </g>
+                                  <g class="recharts-layer recharts-bar-rectangle">
+                                    <path x="574.6" y="36.50000000000001" width="44" height="107.09999999999997"
+                                      radius="0" fill="#e0ff07" name="ENGINEERING PHYSICS LAB"
+                                      class="recharts-rectangle"
+                                      d="M 574.6,36.50000000000001 h 44 v 107.09999999999997 h -44 Z"></path>
+                                  </g>
+                                </g>
+                              </g>
+                              <g class="recharts-layer"></g>
+                            </g>
+                          </svg>
+                          <div tabindex="-1"
+                            class="recharts-tooltip-wrapper recharts-tooltip-wrapper-right recharts-tooltip-wrapper-top"
+                            style="visibility: hidden; pointer-events: none; position: absolute; top: 0px; left: 0px; transform: translate(100.455px, 5px);">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-slot="card"
+                class="text-card-foreground gap-6 rounded-xl border py-6 shadow-sm flex flex-col bg-zinc-900/95 border-zinc-800">
+                <div data-slot="card-header"
+                  class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-1.5 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6 pb-0">
+                  <div data-slot="card-title" class="leading-none font-semibold text-white">GRADE DISTRIBUTION</div>
+                  <div data-slot="card-description" class="text-sm text-zinc-400">Breakdown of grades for this semester
+                  </div>
+                </div>
+                <div data-slot="card-content" class="px-6 pb-0">
+                  <div class="block md:grid grid-cols-2">
+                    <div data-slot="chart" data-chart="chart-_r_v_"
+                      class="[&amp;_.recharts-cartesian-axis-tick_text]:fill-muted-foreground [&amp;_.recharts-cartesian-grid_line[stroke=&#39;#ccc&#39;]]:stroke-border/50 [&amp;_.recharts-curve.recharts-tooltip-cursor]:stroke-border [&amp;_.recharts-polar-grid_[stroke=&#39;#ccc&#39;]]:stroke-border [&amp;_.recharts-radial-bar-background-sector]:fill-muted [&amp;_.recharts-rectangle.recharts-tooltip-cursor]:fill-muted [&amp;_.recharts-reference-line_[stroke=&#39;#ccc&#39;]]:stroke-border flex justify-center text-xs [&amp;_.recharts-dot[stroke=&#39;#fff&#39;]]:stroke-transparent [&amp;_.recharts-layer]:outline-hidden [&amp;_.recharts-sector]:outline-hidden [&amp;_.recharts-sector[stroke=&#39;#fff&#39;]]:stroke-transparent [&amp;_.recharts-surface]:outline-hidden mx-auto aspect-square max-h-[250px]">
+                      <style>
+                        [data-chart=chart-_r_v_] {
+                          --color-o: #84cc16;
+                          --color-aPlus: #a3e635;
+                          --color-a: #84cc16;
+                          --color-bPlus: #65a30d;
+                          --color-b: #4d7c0f;
+                          --color-c: #365314;
+                          --color-p: #4d7c0f;
+                          --color-f: #365314;
+                        }
+
+
+                        .dark [data-chart=chart-_r_v_] {
+                          --color-o: #84cc16;
+                          --color-aPlus: #a3e635;
+                          --color-a: #84cc16;
+                          --color-bPlus: #65a30d;
+                          --color-b: #4d7c0f;
+                          --color-c: #365314;
+                          --color-p: #4d7c0f;
+                          --color-f: #365314;
+                        }
+                      </style>
+                      <div class="recharts-responsive-container" style="width: 100%; height: 100%; min-width: 0px;">
+                        <div class="recharts-wrapper"
+                          style="position: relative; cursor: default; width: 100%; height: 100%; max-height: 250px; max-width: 250px;">
+                          <svg cx="50%" cy="50%" class="recharts-surface" width="250" height="250" viewBox="0 0 250 250"
+                            style="width: 100%; height: 100%;">
+                            <title></title>
+                            <desc></desc>
+                            <defs>
+                              <clippath id="recharts71-clip">
+                                <rect x="5" y="5" height="240" width="240"></rect>
+                              </clippath>
+                            </defs>
+                            <g class="recharts-layer recharts-area">
+                              <g class="recharts-layer recharts-radial-bar-background">
+                                <path cx="125" cy="125" fill="#eee"
+                                  class="recharts-sector recharts-radial-bar-background-sector" d="M 125,165.33333333333331
+    A 40.33333333333333,40.33333333333333,0,
+    1,0,
+    124.99929605053507,165.33333332719022
+  L 124.99966256967797,144.3333333303887
+            A 19.333333333333332,19.333333333333332,0,
+            1,1,
+            125,144.33333333333334 Z" role="img"></path>
+                                <path cx="125" cy="125" fill="#eee"
+                                  class="recharts-sector recharts-radial-bar-background-sector" d="M 125,192
+    A 67,67,0,
+    1,0,
+    124.99883062940123,191.9999999897953
+  L 124.99919714854413,170.9999999929938
+            A 46,46,0,
+            1,1,
+            125,171 Z" role="img"></path>
+                                <path cx="125" cy="125" fill="#eee"
+                                  class="recharts-sector recharts-radial-bar-background-sector" d="M 125,218.66666666666669
+    A 93.66666666666669,93.66666666666669,0,
+    1,0,
+    124.99836520826739,218.66666665240044
+  L 124.99873172741029,197.66666665559893
+            A 72.66666666666669,72.66666666666669,0,
+            1,1,
+            125,197.66666666666669 Z" role="img"></path>
+                              </g>
+                              <g class="recharts-layer recharts-radial-bar-sectors">
+                                <g class="recharts-layer">
+                                  <path cx="125" cy="125" fill="var(--color-o)"
+                                    class="recharts-sector recharts-radial-bar-sector undefined" d="M 125,165.33333333333331
+    A 40.33333333333333,40.33333333333333,0,
+    1,0,
+    91.96086754701066,101.86575040050782
+  L 109.16306047707948,113.91085556387978
+            A 19.333333333333332,19.333333333333332,0,
+            1,1,
+            125,144.33333333333334 Z" role="img"></path>
+                                  <path cx="125" cy="125" fill="var(--color-aPlus)"
+                                    class="recharts-sector recharts-radial-bar-sector undefined" d="M 125,192
+    A 67,67,0,
+    1,0,
+    124.99883062940123,191.9999999897953
+  L 124.99919714854413,170.9999999929938
+            A 46,46,0,
+            1,1,
+            125,171 Z" role="img"></path>
+                                  <path cx="125" cy="125" fill="var(--color-a)"
+                                    class="recharts-sector recharts-radial-bar-sector undefined" d="M 125,218.66666666666669
+    A 93.66666666666669,93.66666666666669,0,
+    0,0,
+    216.73157157204002,143.94104594176756
+  L 196.16541851496342,139.69447692279476
+            A 72.66666666666669,72.66666666666669,0,
+            0,1,
+            125,197.66666666666669 Z" role="img"></path>
+                                </g>
+                              </g>
+                              <g class="recharts-layer recharts-label-list"><text offset="5" fill="var(--color-o)"
+                                  cx="125" cy="125"
+                                  class="recharts-radial-bar-label fill-white capitalize mix-blend-luminosity"
+                                  font-size="11" dominant-baseline="central">
+                                  <defs>
+                                    <path id="recharts-radial-line-97" d="M127.60014632530513,154.7198084930704
+    A29.83333333333333,29.83333333333333,0,1,0,
+    127.0810681333664,154.76066083275143"></path>
+                                  </defs>
+                                  <textpath xlink:href="#recharts-radial-line-97">O</textpath>
+                                </text><text offset="5" fill="var(--color-aPlus)" cx="125" cy="125"
+                                  class="recharts-radial-bar-label fill-white capitalize mix-blend-luminosity"
+                                  font-size="11" dominant-baseline="central">
+                                  <defs>
+                                    <path id="recharts-radial-line-98" d="M129.92429946524268,181.28500044218362
+    A56.5,56.5,0,1,0,
+    128.94124076654307,181.36236883968007"></path>
+                                  </defs>
+                                  <textpath xlink:href="#recharts-radial-line-98">A+</textpath>
+                                </text><text offset="5" fill="var(--color-a)" cx="125" cy="125"
+                                  class="recharts-radial-bar-label fill-white capitalize mix-blend-luminosity"
+                                  font-size="11" dominant-baseline="central">
+                                  <defs>
+                                    <path id="recharts-radial-line-99" d="M132.24845260518023,207.85019239129684
+    A83.16666666666669,83.16666666666669,0,1,0,
+    130.80141339971976,207.96407684660875"></path>
+                                  </defs>
+                                  <textpath xlink:href="#recharts-radial-line-99">A</textpath>
+                                </text></g>
+                            </g>
+                          </svg>
+                          <div tabindex="-1" class="recharts-tooltip-wrapper"
+                            style="visibility: hidden; pointer-events: none; position: absolute; top: 0px; left: 0px;">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flex flex-col gap-3 text-sm">
+                      <div class="space-y-2">
+                        <div class="w-full flex items-center justify-between text-zinc-300"><span
+                            class="text-muted-foreground">Total Subjects</span><span
+                            class="font-medium text-white">10</span></div>
+                        <div class="w-full flex items-center justify-between text-zinc-300"><span
+                            class="text-muted-foreground">Pass Rate</span><span
+                            class="font-medium text-white">100%</span></div>
+                        <div class="w-full flex items-center justify-between text-zinc-300"><span
+                            class="text-muted-foreground">Average Marks</span><span
+                            class="font-medium text-white">86.4</span></div>
+                        <div class="w-full flex items-center justify-between text-zinc-300"><span
+                            class="text-muted-foreground">Highest Marks</span><span
+                            class="font-medium text-white">95.0</span></div>
+                        <div class="w-full flex items-center justify-between text-zinc-300"><span
+                            class="text-muted-foreground">Lowest Marks</span><span
+                            class="font-medium text-white">71.0</span></div>
+                        <div class="w-full flex items-center justify-between text-zinc-300"><span
+                            class="text-muted-foreground">Failed Subjects</span><span
+                            class="font-medium text-white">0</span></div>
+                        <div class="w-full flex items-center justify-between text-zinc-300"><span
+                            class="text-muted-foreground">Most Common Grade</span><span
+                            class="font-medium text-white">A+ (6)</span></div>
+                      </div>
+                      <div class="pt-2 border-t border-zinc-800">
+                        <div class="text-xs text-muted-foreground mb-2">Grade Breakdown</div>
+                        <div class="grid grid-cols-2 gap-2">
+                          <div class="flex items-center justify-between text-xs"><span
+                              class="text-zinc-400">O</span><span class="text-white font-medium">3 (30%)</span></div>
+                          <div class="flex items-center justify-between text-xs"><span
+                              class="text-zinc-400">A+</span><span class="text-white font-medium">6 (60%)</span></div>
+                          <div class="flex items-center justify-between text-xs"><span
+                              class="text-zinc-400">A</span><span class="text-white font-medium">1 (10%)</span></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div data-slot="card"
+              class="text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm bg-zinc-900/95 border-zinc-800">
+              <div data-slot="card-content" class="p-6">
+                <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-4">
+                  <div>
+                    <h3 class="text-lg font-semibold text-white mb-1">SEMESTER 2 - DETAILED RESULTS</h3>
+                    <p class="text-sm text-zinc-400">Showing 10 subjects</p>
+                  </div>
+                  <div class="flex items-center gap-3 shrink-0"><label for="marks-breakdown-toggle-semester"
+                      class="text-sm text-zinc-400 cursor-pointer">Show Marks Breakdown</label><button type="button"
+                      role="switch" aria-checked="true" data-state="checked" value="on" data-slot="switch"
+                      class="peer data-[state=checked]:bg-primary data-[state=unchecked]:bg-input focus-visible:border-ring focus-visible:ring-ring/50 dark:data-[state=unchecked]:bg-input/80 inline-flex h-[1.15rem] w-8 shrink-0 items-center rounded-full border border-transparent shadow-xs transition-all outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50"
+                      id="marks-breakdown-toggle-semester"><span data-state="checked" data-slot="switch-thumb"
+                        class="bg-background dark:data-[state=unchecked]:bg-foreground dark:data-[state=checked]:bg-primary-foreground pointer-events-none block size-4 rounded-full ring-0 transition-transform data-[state=checked]:translate-x-[calc(100%-2px)] data-[state=unchecked]:translate-x-0"></span></button>
+                  </div>
+                </div>
+                <div class="-mx-6 px-6">
+                  <div data-slot="table-container" class="relative w-full overflow-x-auto">
+                    <table data-slot="table" class="caption-bottom text-sm w-full min-w-[600px]">
+                      <thead data-slot="table-header" class="[&amp;_tr]:border-b">
+                        <tr data-slot="table-row"
+                          class="data-[state=selected]:bg-muted transition-colors border-b border-zinc-700 hover:bg-transparent">
+                          <th data-slot="table-head"
+                            class="h-10 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] text-left p-3 text-white font-semibold md:hidden w-[180px]">
+                            SUBJECT</th>
+                          <th data-slot="table-head"
+                            class="h-10 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] text-left p-3 text-white font-semibold hidden md:table-cell">
+                            PAPER CODE</th>
+                          <th data-slot="table-head"
+                            class="h-10 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] text-left p-3 text-white font-semibold hidden md:table-cell">
+                            SUBJECT NAME</th>
+                          <th data-slot="table-head"
+                            class="h-10 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] text-center p-3 text-white font-semibold hidden md:table-cell">
+                            INTERNAL</th>
+                          <th data-slot="table-head"
+                            class="h-10 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] text-center p-3 text-white font-semibold hidden md:table-cell">
+                            EXTERNAL</th>
+                          <th data-slot="table-head"
+                            class="h-10 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] text-center p-3 text-white font-semibold w-[70px]">
+                            TOTAL</th>
+                          <th data-slot="table-head"
+                            class="h-10 align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] text-center p-3 text-white font-semibold">
+                            GRADE</th>
+                        </tr>
+                      </thead>
+                      <tbody data-slot="table-body" class="[&amp;_tr:last-child]:border-0">
+                        <tr data-slot="table-row"
+                          class="data-[state=selected]:bg-muted border-b border-zinc-800 hover:bg-zinc-800/30 transition-colors">
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-zinc-200 md:hidden min-w-0 max-w-[200px]">
+                            <div class="flex flex-col min-w-0"><span
+                                class="text-xs text-zinc-400 font-mono mb-1">ES-102</span><span
+                                class="text-sm md:text-base text-wrap">DATA STRUCTURES</span></div>
+                          </td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-zinc-300 font-mono text-sm hidden md:table-cell">
+                            ES-102</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-zinc-200 hidden md:table-cell">
+                            DATA STRUCTURES</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-center text-zinc-300 hidden md:table-cell">
+                            32</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-center text-zinc-300 hidden md:table-cell">
+                            39</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-center text-white font-semibold">
+                            71</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-center">
+                            <span class="px-2 py-1 rounded text-sm font-semibold bg-blue-500/20 text-blue-400">A</span>
+                          </td>
+                        </tr>
+                        <tr data-slot="table-row"
+                          class="data-[state=selected]:bg-muted border-b border-zinc-800 hover:bg-zinc-800/30 transition-colors">
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-zinc-200 md:hidden min-w-0 max-w-[200px]">
+                            <div class="flex flex-col min-w-0"><span
+                                class="text-xs text-zinc-400 font-mono mb-1">SEC-104</span><span
+                                class="text-sm md:text-base text-wrap">PYTHON PROGRAMMING</span></div>
+                          </td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-zinc-300 font-mono text-sm hidden md:table-cell">
+                            SEC-104</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-zinc-200 hidden md:table-cell">
+                            PYTHON PROGRAMMING</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-center text-zinc-300 hidden md:table-cell">
+                            39</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-center text-zinc-300 hidden md:table-cell">
+                            42</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-center text-white font-semibold">
+                            81</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-center">
+                            <span
+                              class="px-2 py-1 rounded text-sm font-semibold bg-green-500/20 text-green-400">A+</span>
+                          </td>
+                        </tr>
+                        <tr data-slot="table-row"
+                          class="data-[state=selected]:bg-muted border-b border-zinc-800 hover:bg-zinc-800/30 transition-colors">
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-zinc-200 md:hidden min-w-0 max-w-[200px]">
+                            <div class="flex flex-col min-w-0"><span
+                                class="text-xs text-zinc-400 font-mono mb-1">ES-108</span><span
+                                class="text-sm md:text-base text-wrap">BASICS OF ELECTRONICS ENGINEERING</span></div>
+                          </td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-zinc-300 font-mono text-sm hidden md:table-cell">
+                            ES-108</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-zinc-200 hidden md:table-cell">
+                            BASICS OF ELECTRONICS ENGINEERING</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-center text-zinc-300 hidden md:table-cell">
+                            38</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-center text-zinc-300 hidden md:table-cell">
+                            53</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-center text-white font-semibold">
+                            91</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-center">
+                            <span class="px-2 py-1 rounded text-sm font-semibold bg-primary/20 text-primary">O</span>
+                          </td>
+                        </tr>
+                        <tr data-slot="table-row"
+                          class="data-[state=selected]:bg-muted border-b border-zinc-800 hover:bg-zinc-800/30 transition-colors">
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-zinc-200 md:hidden min-w-0 max-w-[200px]">
+                            <div class="flex flex-col min-w-0"><span
+                                class="text-xs text-zinc-400 font-mono mb-1">BS-110</span><span
+                                class="text-sm md:text-base text-wrap">ENGINEERING MATHEMATICS-II</span></div>
+                          </td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-zinc-300 font-mono text-sm hidden md:table-cell">
+                            BS-110</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-zinc-200 hidden md:table-cell">
+                            ENGINEERING MATHEMATICS-II</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-center text-zinc-300 hidden md:table-cell">
+                            37</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-center text-zinc-300 hidden md:table-cell">
+                            58</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-center text-white font-semibold">
+                            95</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-center">
+                            <span class="px-2 py-1 rounded text-sm font-semibold bg-primary/20 text-primary">O</span>
+                          </td>
+                        </tr>
+                        <tr data-slot="table-row"
+                          class="data-[state=selected]:bg-muted border-b border-zinc-800 hover:bg-zinc-800/30 transition-colors">
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-zinc-200 md:hidden min-w-0 max-w-[200px]">
+                            <div class="flex flex-col min-w-0"><span
+                                class="text-xs text-zinc-400 font-mono mb-1">BS-112</span><span
+                                class="text-sm md:text-base text-wrap">ENGINEERING PHYSICS</span></div>
+                          </td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-zinc-300 font-mono text-sm hidden md:table-cell">
+                            BS-112</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-zinc-200 hidden md:table-cell">
+                            ENGINEERING PHYSICS</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-center text-zinc-300 hidden md:table-cell">
+                            32</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-center text-zinc-300 hidden md:table-cell">
+                            51</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-center text-white font-semibold">
+                            83</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-center">
+                            <span
+                              class="px-2 py-1 rounded text-sm font-semibold bg-green-500/20 text-green-400">A+</span>
+                          </td>
+                        </tr>
+                        <tr data-slot="table-row"
+                          class="data-[state=selected]:bg-muted border-b border-zinc-800 hover:bg-zinc-800/30 transition-colors">
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-zinc-200 md:hidden min-w-0 max-w-[200px]">
+                            <div class="flex flex-col min-w-0"><span
+                                class="text-xs text-zinc-400 font-mono mb-1">ES-116</span><span
+                                class="text-sm md:text-base text-wrap">ENGINEERING MECHANICS</span></div>
+                          </td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-zinc-300 font-mono text-sm hidden md:table-cell">
+                            ES-116</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-zinc-200 hidden md:table-cell">
+                            ENGINEERING MECHANICS</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-center text-zinc-300 hidden md:table-cell">
+                            39</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-center text-zinc-300 hidden md:table-cell">
+                            49</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-center text-white font-semibold">
+                            88</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-center">
+                            <span
+                              class="px-2 py-1 rounded text-sm font-semibold bg-green-500/20 text-green-400">A+</span>
+                          </td>
+                        </tr>
+                        <tr data-slot="table-row"
+                          class="data-[state=selected]:bg-muted border-b border-zinc-800 hover:bg-zinc-800/30 transition-colors">
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-zinc-200 md:hidden min-w-0 max-w-[200px]">
+                            <div class="flex flex-col min-w-0"><span
+                                class="text-xs text-zinc-400 font-mono mb-1">ES-152</span><span
+                                class="text-sm md:text-base text-wrap">DATA STRUCTURES LAB</span></div>
+                          </td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-zinc-300 font-mono text-sm hidden md:table-cell">
+                            ES-152</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-zinc-200 hidden md:table-cell">
+                            DATA STRUCTURES LAB</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-center text-zinc-300 hidden md:table-cell">
+                            36</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-center text-zinc-300 hidden md:table-cell">
+                            52</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-center text-white font-semibold">
+                            88</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-center">
+                            <span
+                              class="px-2 py-1 rounded text-sm font-semibold bg-green-500/20 text-green-400">A+</span>
+                          </td>
+                        </tr>
+                        <tr data-slot="table-row"
+                          class="data-[state=selected]:bg-muted border-b border-zinc-800 hover:bg-zinc-800/30 transition-colors">
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-zinc-200 md:hidden min-w-0 max-w-[200px]">
+                            <div class="flex flex-col min-w-0"><span
+                                class="text-xs text-zinc-400 font-mono mb-1">SEC-154</span><span
+                                class="text-sm md:text-base text-wrap">PYTHON PROGRAMMING LAB</span></div>
+                          </td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-zinc-300 font-mono text-sm hidden md:table-cell">
+                            SEC-154</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-zinc-200 hidden md:table-cell">
+                            PYTHON PROGRAMMING LAB</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-center text-zinc-300 hidden md:table-cell">
+                            39</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-center text-zinc-300 hidden md:table-cell">
+                            54</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-center text-white font-semibold">
+                            93</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-center">
+                            <span class="px-2 py-1 rounded text-sm font-semibold bg-primary/20 text-primary">O</span>
+                          </td>
+                        </tr>
+                        <tr data-slot="table-row"
+                          class="data-[state=selected]:bg-muted border-b border-zinc-800 hover:bg-zinc-800/30 transition-colors">
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-zinc-200 md:hidden min-w-0 max-w-[200px]">
+                            <div class="flex flex-col min-w-0"><span
+                                class="text-xs text-zinc-400 font-mono mb-1">ES-158</span><span
+                                class="text-sm md:text-base text-wrap">BASICS OF ELECTRONICS ENGINEERING LAB</span>
+                            </div>
+                          </td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-zinc-300 font-mono text-sm hidden md:table-cell">
+                            ES-158</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-zinc-200 hidden md:table-cell">
+                            BASICS OF ELECTRONICS ENGINEERING LAB</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-center text-zinc-300 hidden md:table-cell">
+                            34</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-center text-zinc-300 hidden md:table-cell">
+                            55</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-center text-white font-semibold">
+                            89</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-center">
+                            <span
+                              class="px-2 py-1 rounded text-sm font-semibold bg-green-500/20 text-green-400">A+</span>
+                          </td>
+                        </tr>
+                        <tr data-slot="table-row"
+                          class="data-[state=selected]:bg-muted border-b border-zinc-800 hover:bg-zinc-800/30 transition-colors">
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-zinc-200 md:hidden min-w-0 max-w-[200px]">
+                            <div class="flex flex-col min-w-0"><span
+                                class="text-xs text-zinc-400 font-mono mb-1">BS-160</span><span
+                                class="text-sm md:text-base text-wrap">ENGINEERING PHYSICS LAB</span></div>
+                          </td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-zinc-300 font-mono text-sm hidden md:table-cell">
+                            BS-160</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-zinc-200 hidden md:table-cell">
+                            ENGINEERING PHYSICS LAB</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-center text-zinc-300 hidden md:table-cell">
+                            34</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-center text-zinc-300 hidden md:table-cell">
+                            51</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-center text-white font-semibold">
+                            85</td>
+                          <td data-slot="table-cell"
+                            class="align-middle whitespace-nowrap [&amp;:has([role=checkbox])]:pr-0 [&amp;&gt;[role=checkbox]]:translate-y-[2px] p-3 text-center">
+                            <span
+                              class="px-2 py-1 rounded text-sm font-semibold bg-green-500/20 text-green-400">A+</span>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
